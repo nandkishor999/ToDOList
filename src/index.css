@@ -10,7 +10,7 @@ body{
 }
 .main-div{
   position: relative;
-  top: 100px;
+  top: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,8 +18,8 @@ body{
 }
 .div{
   border: 3px solid red;
-  height: 600px;
-  width: 500px;
+  height: 40rem;
+  width: 35%;
   border-radius:10% ;
   background-image: url(../src/imgg/nk\ \(13\).jpg);
   background-size: 100% 100%;
@@ -32,37 +32,39 @@ body{
 
 
 input{
-  font-size: 1.2rem;
+  width: 58%;
+  font-size: 99%;
+  height: 5%;
   font-weight: bold;
   font-family: cursive;
   position: relative;
   border-radius: 10%;
   color: blueviolet;
   
-  left: 50px;
+  left: 13%;
    border: 2px solid rgb(19, 77, 184);
    box-shadow: 4Px 4Px 5px rgb(84, 74, 230);
   text-align: center;}
    
 button{
   /* border: 2px solid green; */
-  height: 30px;
-  width: 30px;
+  height: 2rem;
+  width: 2rem;
   border-radius: 50%;
   position: absolute;
-  left: 860px;
+  left: 60%;
 }
 ol{
   font-size: 0.8rem;
   font-weight: bold;
-  margin: 24px 27px;
+  margin: 2rem 2rem;
   padding: 3px 14px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 ol li{
       border: 2px solid rgb(220, 238, 203);
       border-radius: 10px;
-     width: 270px;
+     width: 70%;
       margin: 23px 14px;
        padding: 4px 11px;
       overflow: hidden;
@@ -96,7 +98,7 @@ ol li{
 }
 .heading{
   position: relative;
-  top: 30px;
+  top: 3rem;
   font-size: 2.8rem;
  
   text-align: center;
@@ -107,4 +109,27 @@ ol li{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
  
+}
+@media(max-width:998px){
+  html{
+    font-size: 70%;
+  }
+  .div{
+    width: 80%;
+  }
+  button{
+    left: 70%;
+  }
+  
+}
+@media(max-width:768px){
+  html{
+    font-size: 70%;
+  }
+  .div{
+    width: 80%;
+  }
+  button{
+    left: 70%;
+  }
 }
