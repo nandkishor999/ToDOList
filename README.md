@@ -1,7 +1,7 @@
 # LINK TO THIS SITE 
 # https://frabjous-faloodeh-706c50.netlify.app/
 
-#Fully  Mobile and tab responsive site 
+# Fully  Mobile and tab responsive site 
 
 # Getting Started with Create React App
 
